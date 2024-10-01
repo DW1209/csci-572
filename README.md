@@ -5,3 +5,4 @@ The [link](https://bytes.usc.edu/cs572/f24-srch/home/index.html) leads to the of
 
 ## Assignments
 - Comparing Search Engines
+- Web Crawling
