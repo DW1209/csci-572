@@ -1,0 +1,47 @@
+Name: Wei-Cheng Wang
+USC ID: 3351037624
+News site crawled: usatoday.com
+Number of threads: 7
+
+Fetch statistics:
+================
+# fetches attempted: 20000
+# fetched succeeded: 19869
+# fetches failed or aborted: 131
+
+Outgoing URLs:
+================
+Total URLs extracted: 3754588
+# unique URLs extracted: 232026
+# unique URLs within News Site: 93069
+# unique URLs outside News Site: 138957
+
+Status Codes:
+================
+200 OK: 19869
+403 Forbidden: 1
+404 Not Found: 121
+405 Method Not Allowed: 1
+500 Internal Server Error: 8
+
+File Sizes:
+================
+< 1KB: 7
+1KB ~ <10KB: 2527
+10KB ~ <100KB: 1365
+100KB ~ <1MB: 15430
+>= 1MB: 540
+
+Content Types:
+================
+image/jpeg: 2046
+image/png: 376
+image/svg+xml: 11
+image/webp: 1237
+text/html: 16199
+
+Change Reason:
+================
+I switch to USA Today instead of Wall Street Journal
+because I am unable to retrieve content from the website
+and keep receiving a 403 Forbidden error.
