@@ -1,1 +1,7 @@
 hw2/outputs/urls_usatoday.csv filter=lfs diff=lfs merge=lfs -text
+hw3/inputs/fulldata/5722018443.txt filter=lfs diff=lfs merge=lfs -text
+hw3/inputs/fulldata/5722018452.txt filter=lfs diff=lfs merge=lfs -text
+hw3/inputs/fulldata/5722018454.txt filter=lfs diff=lfs merge=lfs -text
+hw3/inputs/fulldata/5722018487.txt filter=lfs diff=lfs merge=lfs -text
+hw3/inputs/fulldata/5722018489.txt filter=lfs diff=lfs merge=lfs -text
+hw3/outputs/unigram_index.txt filter=lfs diff=lfs merge=lfs -text
