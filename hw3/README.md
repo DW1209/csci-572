@@ -24,3 +24,4 @@ $ ./bigram
 ## Explanation
 - **unigram_index.txt** in the **outputs directory** contains words from files in the **fulldata directory**.
 - **selected_bigram_index.txt** in the **outputs directory** contains the inverted index for just these five bigrams--_computer science_, _information retrieval_, _power politics_, _los angeles_, _bruce willis_--using files in the **devdata directory**.
+- **unigram_screenshot.png** and **bigram_screenshot.png** in the **outputs directory** are the screenshots of the results.
