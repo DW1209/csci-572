@@ -1,0 +1,53 @@
+RAG Implementation Workflow
+    The RAG (Retrieval Augmented Generation) implementation follows these key steps:
+        1. Document Ingestion and Processing
+            - PDF documents are loaded using "PyPDFLoader" from LangChain.
+            - Documents are split into smaller chunks using "RecursiveCharacterTextSplitter". The chunk size is 1024 characters, and the chunk overlap is 64 characters.
+            - These splits enable more precise context retrieval later.
+        2. Vector Database Creation
+            - Document chunks are embedded using "HuggingFaceEmbeddings".
+            - FAISS vector store is created from these embeddings.
+            - This enables semantic search capabilities.
+        3. LLM Chain Initialization
+            - Uses either Meta-Llama-3-8B-Instruct or Mistral-7B-Instruct-v0.2.
+            - Configurable parameters: Temperature (randomness), Max tokens for generation, Top-k for token selection.
+            - Implements conversation memory using "ConversationBufferMemory".
+            - Creates a "ConversationalRetrievalChain" that combines the chosen LLM, vector store retriever, and conversation memory.
+        4. Query Processing and Response Generation
+            - User query is combined with conversation history.
+            - Relevant contexts are retrieved from the vector store.
+            - LLM generates response using the user query, retrieved contexts, and conversation history.
+            - Returns response with source documents and page numbers.
+
+Gradio UI Implementation
+    Components Layout
+        1. Left Column (Configuration)
+            - File upload section for PDFs.
+            - LLM selection radio buttons.
+            - Parameter sliders (in accordion).
+            - Initialization buttons.
+        2. Right Column (Chat Interface)
+            - Chat display.
+            - Source document viewer (in accordion).
+            - Message input.
+            - Submit / Clear buttons.
+    Key UI Components and Functionality
+        The code "document = gr.Files(height=300, file_count='multiple', file_types=['pdf'], interactive=True)" we can see that: 
+            - Allows multiple PDF uploads.
+            - Tiggers database creation when 'Create vector database' is clicked.
+    LLM Configuration
+        - Radio buttons for model selection.
+        - Sliders for parameters: Temperature (0.01 - 1.0), Max tokens (128 - 9192), and Top-k (1 - 10).
+    Chat Interface
+        - Chatbot component displays conversation history.
+        - Source document viewer shows the three most relevant document chunks and page numbers for each chunk.
+        - Input text box for user queries.
+        - Submit and Clear buttons for interaction.
+    Event Handlers
+        1. Database Initialization: "db_btn.click(initialize_database, inputs=[document], outputs=[vector_db, db_progress])".
+        2. LLM Chain Initialization: "qachain_btn.click(initialize_LLM, inputs=[llm_btn, slider_temperature, slider_maxtokens, slider_topk, vector_db], outputs=[qa_chain, llm_progress])".
+        3. Chat Interaction: "submit_btn.click(conversation, inputs=[qa_chain, msg, chatbot], outputs=[qa_chain, msg, chatbot, doc_source1, source1_page, doc_source2, source2_page, doc_source3, source3_page])".
+    State Management
+        - Uses "gr.State()" to maintain vector database instance and QA chain configuration.
+        - Conversation history maintained in chatbot component.
+        - Source documents updated with each response.

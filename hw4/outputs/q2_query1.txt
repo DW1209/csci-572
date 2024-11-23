@@ -1,0 +1,24 @@
+User query: What tips are provided for reducing fat content in cooking?
+----------------------------------------------------------------------------------------------------
+Retrieved content:
+6.
+
+Cook with less fat.
+
+Replace whole milk in recipes with low fat or skim milk.
+
+Replace cream in recipes with evaporated skim milk.
+
+Use smaller amounts of full-fat cheese, such as cheddar, or use lower-fat cheese, such as part skim mozzarella.
+
+Decrease the amount of fat in recipes. Do not decrease fat if the recipe has already been reduced in fat. Start by decreasing the fat by ¼. For example, if a cake recipe calls for 1 cup of margarine, use ¾ cup of margarine. The fat in recipes for quick bread, muffins and some soft cookies can be decreased by ½. For example, if a muffin recipe calls for 1 cup oil, use ½ cup oil.
+
+Replace chocolate and nuts with raisins or chopped fresh fruits or canned fruits.
+
+Replace sour cream with nonfat or low-fat source cream or low-fat yogurt.
+
+Decrease the amount of oil in homemade salad dressings. Try using one part oil to two parts vinegar.
+
+7.
+----------------------------------------------------------------------------------------------------
+metadata: {'source': 'example_data/cooking.pdf'}

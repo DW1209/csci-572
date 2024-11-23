@@ -1,0 +1,77 @@
+[
+    {
+        "MusicGenre": "Pop",
+        "SongTitle": "Hello",
+        "Artist": "Adele"
+    },
+    {
+        "MusicGenre": "Rock",
+        "SongTitle": "Hotel California",
+        "Artist": "Eagles"
+    },
+    {
+        "MusicGenre": "Hip-Hop",
+        "SongTitle": "Truth Hurts",
+        "Artist": "Lizzo"
+    },
+    {
+        "MusicGenre": "Classical",
+        "SongTitle": "Ave Maria",
+        "Artist": "Maria Callas"
+    },
+    {
+        "MusicGenre": "Jazz",
+        "SongTitle": "At Last",
+        "Artist": "Etta James"
+    },
+    {
+        "MusicGenre": "Country",
+        "SongTitle": "Love Story",
+        "Artist": "Taylor Swift"
+    },
+    {
+        "MusicGenre": "Electronic",
+        "SongTitle": "Wake Me Up",
+        "Artist": "Avicii"
+    },
+    {
+        "MusicGenre": "R&B",
+        "SongTitle": "Adore You",
+        "Artist": "Harry Styles"
+    },
+    {
+        "MusicGenre": "Reggae",
+        "SongTitle": "Chase the Devil",
+        "Artist": "Max Romeo"
+    },
+    {
+        "MusicGenre": "K-Pop",
+        "SongTitle": "Kill This Love",
+        "Artist": "BLACKPINK"
+    },
+    {
+        "MusicGenre": "Alternative",
+        "SongTitle": "Radioactive",
+        "Artist": "Imagine Dragons"
+    },
+    {
+        "MusicGenre": "Blues",
+        "SongTitle": "Almost Is Never Enough (ft. Nathan Sykes)",
+        "Artist": "Ariana Grande"
+    },
+    {
+        "MusicGenre": "Metal",
+        "SongTitle": "My Happy Ending",
+        "Artist": "Avril Lavigne"
+    },
+    {
+        "MusicGenre": "Folk",
+        "SongTitle": "I See Fire",
+        "Artist": "Ed Sheeran"
+    },
+    {
+        "MusicGenre": "Latin",
+        "SongTitle": "Despacito",
+        "Artist": "Luis Fonsi ft. Daddy Yankee"
+    }
+]

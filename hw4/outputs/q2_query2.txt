@@ -1,0 +1,70 @@
+Example 1: Query-> What steps should be taken to extinguish a cooking fire safely?
+....................................................................................................
+Retrieved document:
+----------------------------------------------------------------------------------------------------
+Raisins
+
+1 pound
+
+= 1 ¾–3 cups
+
+Rice, regular white
+
+or brown
+
+1 pound
+
+= 2½ cups (dry) = 7½ cups cooked
+
+Saltines
+
+22 crackers
+
+= 1 cup crumbs
+
+Sugar,
+
+white
+
+-
+
+granulated
+
+1 pound
+
+= 2 cups
+
+Sugar, brown
+
+1 pound
+
+= 2¼ cup (firmly packed)
+
+Yeast (active dry)
+
+1 packet
+
+= 1 tablespoon
+
+From Jane Brody’s Good Food Gourmet, 1990, W.W. Norton & Co. Inc.
+
+21
+
+EAT SMART
+
+Expanded Food and Nutrition Program
+
+Starting with the Basics: Food, Equipment and Knowledge
+
+Cooking Basics: Putting Out a Cooking Fire
+
+1.
+
+Turn the stove or oven off immediately!
+
+2.
+
+Use a fire extinguisher to put out a fire.
+----------------------------------------------------------------------------------------------------
+metadata: {'source': 'example_data/cooking.pdf'}
+==================================================================================================== 
