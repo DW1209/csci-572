@@ -1,0 +1,2 @@
+Create a simple React component for a user profile car with name, avatar, and basic contact information.
+Create a Rectangle class in C++ with length and width as private members, constructor, methods to calculate area and perimeter.
